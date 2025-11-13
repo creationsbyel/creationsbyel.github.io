@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creations by El</title>
+  <style>
+    body {
+      font-family: 'Helvetica', sans-serif;
+      background-color: #f8f5f1;
+      color: #333;
+      max-width: 800px;
+      margin: auto;
+      padding: 2em;
+      line-height: 1.6;
+    }
+    h1 {
+      text-align: center;
+      color: #5b4636;
+    }
+    .gallery {
+      display: grid;
+      gap: 1em;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    img {
+      width: 100%;
+      border-radius: 6px;
+    }
+    a {
+      color: #5b4636;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Creations by El</h1>
+  <p>Hi, I’m El — I create earthy, handmade art across paint, clay, photos, and jewelry. Welcome to my little creative space!</p>
+
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="https://placekitten.com/300/300" alt="example art">
+    <img src="https://placekitten.com/301/301" alt="example art">
+  </div>
+
+  <h2>Contact</h2>
+  <p>Find me on Instagram: <a href="https://instagram.com/yourhandle" target="_blank">@yourhandle</a></p>
+</body>
+</html>
